@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humildad</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/formulario" method="get">
+      <!--Lo de for sirve para que la barra funcione, y lo de id para que funcione picando el nombre-->
+      <!--Lo de name para que cuando te respondas, en la url tras el submit ver
+         que respuesta recibio cierto dato-->
+         <!--action sirve para que en url saber de que trato el conjunto-->
+         <!--method sirve para que los datos sean procesados-->
+      <label for="Nombre del Aprendiz">Nombre del Aprendiz</label>
+      <input
+        type="text"
+        id="Nombre del Aprendiz"
+        name="Nombre del Aprendiz"
+        placeholder="Nombre"
+      />
+
+      <label for="Fecha">Fecha</label>
+      <input type="date" id="Fecha" name="Fecha" placeholder="Fecha" />
+      <br />
+      <label for="comentario">Comentario</label>
+      <br />
+      <textarea
+        cols="70"
+        rows="10"
+        id="comentario"
+        placeholder="Escribe un comentario"
+        name="comentario"
+      ></textarea>
+      <br />
+      <button type="button">Boton</button>
+      <button type="reset">Resetear</button>
+      <button type="submit">Enviar</button>
+    </form>
+    <!--Lo de form para poder contestar un login-->
+    <!--Lo de label que dira donde contesto-->
+    <!--Lo de input es como que dato recibira, name es como la memoria de las respuestas-->
+    <!--placeholder lo que se vera en gris en donde se contesta-->
+    <!--Lo de enviar se pone input-->
+    <h1>La falta de Humildad en algunos de mis excompañeros</h1>
+    <p>
+      Te pasa que te graduas de la secundaria y ya no ves a tus compañeros? La
+      tarea era lo que mantenia la conexión a que estuvieran juntos? Leen los
+      <span style="color: green">whatsapps?</span> <br />
+      No te preocupes! Sabemos que la hermandad es dificil de encontrar, pero se
+      pierden de su gran valor que tiene.
+    </p>
+    <p>
+      Antes de que vayamos a ver mi blog sobre la humildad, te dejo la
+      definicion de lealtad enseguida por si quieres estar preparado para mi
+      informacion que vale millones para la UNAM
+    </p>
+    <a target="_blank" href="https://www.ejemplos.co/10-ejemplos-de-lealtad/"
+      >Que es la lealtad?</a
+    >
+    <hr />
+    <!--La p sirve para poner texto, la h titulos, y la hr espacios para otras secciones-->
+    <!--la etiqueta span sirve para seleccionar texto, lo de style color extra para poner color-->
+    <!--la etiqueta br sirve para saltar lineas-->
+    <!--la etiqueta a sirve para poner enlaces,
+    y si agrego target hara que se abra otra pestaña al picarle -->
+    <img src="img/Rapidos y Furiosos protagonistas juntos.jpg" width="600" />
+
+    <!--la img  con src para poner una imagen-->
+    <!--width es para ancho de la imagen-->
+    <!--height para la altura de la imagen-->
+  </body>
+</html>
